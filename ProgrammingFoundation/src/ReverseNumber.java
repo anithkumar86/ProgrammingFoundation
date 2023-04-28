@@ -1,12 +1,12 @@
 
 public class ReverseNumber {
 	public static void main(String[] args) {
-	ReverseNumber(123);
+	int result = reverse(123);
 		
 	}
 		
 
-		public static int ReverseNumber(int number) {
+	public static int reverse(int number) {
 		
 			int digit = 0;
 			int temp = number;
@@ -26,6 +26,8 @@ public class ReverseNumber {
 		
 
 }
+
+
 
 
 
